@@ -12,7 +12,7 @@ public class WelcomeController {
 
 	@GetMapping(value = { url })
 	public String getWelcome() {
-		return "Welcome to SpringBoot Application!!!";
+		return "Welcome to jenkins Application!!!";
 	}
 
 }
